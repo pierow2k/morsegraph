@@ -6,7 +6,7 @@
 ![GitHub Issues](https://img.shields.io/github/issues/pierow2k/morsegraph)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/pierow2k/morsegraph)
 ![GitHub License](https://img.shields.io/github/license/pierow2k/tabtomd)
-![pylint]()
+![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
 
 **Morse Code Trie Visualization Tool**
 
