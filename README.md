@@ -6,7 +6,7 @@
 ![GitHub Issues](https://img.shields.io/github/issues/pierow2k/morsegraph)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/pierow2k/morsegraph)
 ![GitHub License](https://img.shields.io/github/license/pierow2k/tabtomd)
-![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
+![pylint]()
 
 **Morse Code Trie Visualization Tool**
 
@@ -158,11 +158,11 @@ to create a `digraph`.
 
 We welcome contributions! Here's how you can help:
 
-- Add a [GitHub Star](github.com/pierow2k/morsegraph) to the
+- Add a [GitHub Star](https://github.com/pierow2k/morsegraph) to the
 morsegraph project.
 - Mention the morsegraph project on social media.
 - Have an idea for a new feature or noticed something that isn’t working
-quite right? [Open anissue](https://github.com/pierow2k/morsegraph/issues)
+quite right? [Open an issue](https://github.com/pierow2k/morsegraph/issues)
 to let us know. Your feedback helps us keep morsegraph reliable and
 feature-rich.
 - **Submit a Pull Request**: If you’ve made improvements or fixed a bug,
