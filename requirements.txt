@@ -1,0 +1,3 @@
+# morsegraph/requirements.txt
+
+pydot==4.0.1

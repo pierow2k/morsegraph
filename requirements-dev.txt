@@ -1,0 +1,6 @@
+# morsegraph/requirements-dev.txt
+# Superset of runtime + dev‑only packages used for development.
+
+-r requirements.txt      # <── INCLUDE REQUIREMENTS FILE
+black==25.12.0
+pylint==4.0.4
