@@ -1,0 +1,30 @@
+name: pylint
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: PyLint with dynamic badge
+        uses: Silleellie/pylint-github-action@v2.1
+        with:
+          lint-path: |
+            morsegraph
+            morsegraph.py
+          python-version: 3.13
+          requirements-path: requirements.txt
+          readme-path: README.md
+          pylintrc-path: .pylintrc
+          badge-text: PyLint
+          color-bad-score: red
+          color-ok-score: orange
+          color-good-score: yellow
+          color-perfect-score: brightgreen
