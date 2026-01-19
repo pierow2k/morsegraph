@@ -10,8 +10,8 @@
 
 **Morse Code Trie Visualization Tool**
 
-A Python-based utility to construct and visualize a
-**[Trie](https://en.wikipedia.org/wiki/Trie)** (or "prefix tree") for
+morsegraph is a Python-based utility to construct and visualize a
+**[Trie](https://en.wikipedia.org/wiki/Trie)** (or *"prefix tree"*) for
 International Morse Code (ITU M.1677). This tool transforms linear
 Morse sequences into a hierarchical structure, exporting it as both
 machine-readable JSON and high-quality visualizations.
@@ -40,10 +40,12 @@ machine-readable JSON and high-quality visualizations.
 
 ## Features
 
-- **ITU M.1677 Compliant:** Includes letters (A-Z), numbers (0-9), and
+- **ITU M.1677 Compliant:**
+  - Includes letters (A-Z), numbers (0-9), and
 common punctuation as defined in
 [ITU M.1677](https://www.itu.int/rec/R-REC-M.1677-1-200910-I/).
-- **Hierarchical Visualization:** Generates clear, stylized graphs showing
+- **Hierarchical Visualization:**
+  - Generates clear, stylized graphs showing
 how dots (`.`) and dashes (`-`) branch out to form characters.
 - **Stylized Nodes:**
   - **Root:** Represented as a box.
@@ -51,10 +53,9 @@ how dots (`.`) and dashes (`-`) branch out to form characters.
   dashes).
   - **Terminal Nodes:** Highlighted double-circles (green) representing the
   decoded character.
-- **Multi-Format Export:** Generates output in `.json`, `.pdf`, `.png`,
+- **Multi-Format Export:**
+  - Generates output in `.json`, `.pdf`, `.png`,
 `.svg`, and `.gv` (Graphviz) formats.
-- **Customizable Layout:** Supports various graph orientations
-(Top-to-Bottom, Left-to-Right, etc.).
 
 ## Example Output
 
