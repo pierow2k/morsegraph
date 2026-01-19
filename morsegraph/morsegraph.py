@@ -154,9 +154,6 @@ def _trie_to_pydot(
     )
     _walk(trie, root_name)
 
-    # TODO: Add a centered title at the top
-    # graph.attr(label='My Graph Title', labelloc='t', fontsize='20')
-
     return graph
 
 
