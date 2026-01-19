@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.13"
           cache: pip
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements-dev.txt
       - run: pylint morsegraph morsegraph.py
 
   badge:
