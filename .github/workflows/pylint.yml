@@ -16,8 +16,8 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.13"
           cache: pip
@@ -34,12 +34,12 @@ jobs:
       contents: write
     steps:
       - name: PyLint with dynamic badge
-        uses: Silleellie/pylint-github-action@v2.1
+        uses: Silleellie/pylint-github-action@4a85cbe000de2eb3c919f0779dade29fa1f60fe2 # v3
         with:
           lint-path: |
             morsegraph
             morsegraph.py
-          python-version: 3.13
+          python-version: "3.13"
           requirements-path: requirements.txt
           readme-path: README.md
           pylintrc-path: .pylintrc
